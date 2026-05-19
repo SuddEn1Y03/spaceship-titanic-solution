@@ -18,9 +18,11 @@ pip install -r requirements.txt
 
 
 ```markdown
+
 ## 3. Data Preparation
 1. Download `train.csv`, `test.csv`, and `sample_submission.csv` from the Kaggle competition page.
 2. Place these three files in **the same directory** as the script `lightgbm_model.py`.
+
 ## 4. How to Run
 Open a terminal (or command prompt) in the directory containing the script and data files, then execute:
 
@@ -39,6 +41,7 @@ Output a submission file lgb_submission.csv ready for Kaggle upload
 
 
 ```markdown
+
 ## 5. Code Structure
 - `lightgbm_model.py` – Main script containing:
   - Data loading
@@ -50,7 +53,9 @@ Output a submission file lgb_submission.csv ready for Kaggle upload
   - Prediction and submission file generation
 - `requirements.txt` – List of required Python packages
 - `README.md` – This file
+
 ## 6. Key Features Engineered
+
 | Feature | Description |
 |---------|-------------|
 | `GroupSize` | Number of passengers in the same travelling group (from `PassengerId`) |
